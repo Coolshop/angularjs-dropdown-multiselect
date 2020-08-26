@@ -1,9 +1,9 @@
 {
-	"author": "pkempenaers@myforce.be",
+	"author": "coolshop",
 	"name": "angularjs-dropdown-multiselect",
-	"version": "2.0.0-beta.10",
+	"version": "2.0.1-beta.0",
 	"description": "This directive gives you a Bootstrap Dropdown with the power of AngularJS directives.",
-	"homepage": "http://dotansimha.github.io/angularjs-dropdown-multiselect/#/",
+	"homepage": "",
 	"dependencies": {
 		"angular": "~1"
 	},
@@ -59,12 +59,16 @@
 		"webpack-stream": "~2.1.1",
 		"wiredep": "~2.2.2"
 	},
+	"peerDependencies": {
+		"angular": "~1.5",
+		"angular-ui-bootstrap": "~2.5.6"
+	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/dotansimha/angularjs-dropdown-multiselect.git"
+		"url": "git+https://github.com/Coolshop/angularjs-dropdown-multiselect.git"
 	},
 	"engines": {
 		"node": ">=0.10.10"
@@ -76,6 +80,6 @@
 	],
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/dotansimha/angularjs-dropdown-multiselect/issues"
+		"url": "https://github.com/Coolshop/angularjs-dropdown-multiselect/issues"
 	}
 }
