@@ -39,6 +39,7 @@ export default function dropdownMultiselectController(
 		$element,
 		$filter,
 		$document,
+		$attrs,
 ) {
 	'ngInject';
 
@@ -103,6 +104,10 @@ export default function dropdownMultiselectController(
 	angular.extend(settings, $scope.extraSettings || []);
 	angular.extend(externalEvents, $scope.events || []);
 	angular.extend(texts, $scope.translationTexts);
+
+	if (angular.isUndefined($scope.appendToBody) && angular.isDefined($attrs.appendToBody)) {
+		$scope.appendToBody = true;
+	}
 
 	if (settings.closeOnBlur) {
 		$document.on('click', (e) => {
