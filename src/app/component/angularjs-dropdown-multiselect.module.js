@@ -1,7 +1,7 @@
-import angularUI from 'angular-ui-bootstrap';
+// import angularUI from 'angular-ui-bootstrap';
 import dropdownDirective from './angularjs-dropdown-multiselect.directive';
 
-angular.module('angularjs-dropdown-multiselect', [angularUI])
+angular.module('angularjs-dropdown-multiselect', ['ui.bootstrap'])
 .directive('dmDropdownStaticInclude', ($compile) => {
 	'ngInject';
 

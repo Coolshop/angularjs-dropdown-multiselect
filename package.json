@@ -1,7 +1,7 @@
 {
 	"author": "coolshop",
 	"name": "angularjs-dropdown-multiselect",
-	"version": "2.0.1-beta.0",
+	"version": "2.0.2-beta.0",
 	"description": "This directive gives you a Bootstrap Dropdown with the power of AngularJS directives.",
 	"homepage": "",
 	"dependencies": {
